@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post" name="submit">
+        <!--Text--><!--Disabled Attribute-->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="name" value="Ravi" disabled><br>
+
+        <!-- Email--><!--Required Attribute-->
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="ravi" required><br>
+
+        <!-- password-->
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" placeholder="password" pattern="A4k"><br>
+        <!-- date time-->
+        <label for="datetime"> Date Time:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br>
+        <!--date-->
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" name="birthday"><br>
+
+        <!--Number-->
+        <label for="number">Quantity:</label>
+        <input type="number" id="number" name="number" min="3" max="9"><br>
+
+        <!-- file upload-->
+        <label for="file">File Upload:</label>
+        <input type="file" id="file" name="File"><br>
+
+        <!--Checkbox-->
+        <input type="checkbox" id="check" name="check">
+        <label for="check"> i agree</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Not Agree</label><br>
+
+        <!--Radio-->
+        <input type="radio" id="choose" name="choose">
+        <label for="radio">Raviteja</label><br>
+        <input type="radio" id="choose" name="choose">
+        <label for="radio">Gay3</label><br>
+
+        <!--Color-->
+        <label for="color"> choose Color</label>
+        <input type="color" id="color" name="color"><br>
+
+        <!--tel-->
+        <label for="tel">Tel</label>
+        <input type="tel" id="tel" name="tel"><BR>
+
+        <!--Textarea-->
+        <label for="textarea"> HTML Review: </label><br>
+        <textarea name="textarea" id="textarea" rows="7"
+            cols="34">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim odio perspiciatis voluptate rem doloribus laboriosam delectus qui perferendis officiis molestias quo voluptatibus, odit quos aliquid asperiores nobis aliquam et modi.</textarea><br>
+         <!--fieldset-->
+         <fieldset>
+            <legend>Choose correct one</legend>
+            <input type="checkbox" id="check" name="check">
+            <label for="check">Ravi</label><br>
+            <input type="checkbox" id="check" name="check">
+            <label for="check">Gay3</label>
+         </fieldset>  
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
